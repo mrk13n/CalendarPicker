@@ -500,6 +500,7 @@ export default class CalendarPicker extends Component {
           maxDate={maxDate}
           onSelectMonth={this.handleOnSelectMonthYear}
           headingLevel={headingLevel}
+          monthTitleStyle={monthTitleStyle}
         />
       );
       break;
@@ -523,6 +524,7 @@ export default class CalendarPicker extends Component {
           nextTitleStyle={nextTitleStyle}
           onSelectYear={this.handleOnSelectMonthYear}
           headingLevel={headingLevel}
+          yearTitleStyle={yearTitleStyle}
         />
       );
       break;

@@ -13,6 +13,7 @@ export default function MonthsHeader(props) {
     textStyle,
     headingLevel,
     title,
+    monthTitleStyle,
   } = props;
 
   const accessibilityProps = { accessibilityRole: 'header' };
@@ -22,7 +23,7 @@ export default function MonthsHeader(props) {
 
   return (
     <View style={styles.headerWrapper}>
-      <Text style={[styles.monthsHeaderText, textStyle]}>
+      <Text style={[styles.monthsHeaderText, monthTitleStyle]}>
         { title }
       </Text>
     </View>

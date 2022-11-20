@@ -44,6 +44,7 @@ export default class YearSelector extends Component {
       nextTitleStyle,
       headingLevel,
       onSelectYear,
+      yearTitleStyle,
     } = this.props;
 
     return (
@@ -66,6 +67,7 @@ export default class YearSelector extends Component {
           nextTitleStyle={nextTitleStyle}
           onYearViewPrevious={this.handleOnYearViewPrevious}
           onYearViewNext={this.handleOnYearViewNext}
+          yearTitleStyle={yearTitleStyle}
         />
         <YearsGridView
           intialYear={this.state.initialYear}
