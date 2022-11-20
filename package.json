@@ -1,5 +1,5 @@
 {
-  "name": "react-native-calendar-picker",
+  "name": "@mrk13n/react-native-calendar-picker",
   "version": "7.1.2",
   "description": "Calendar Picker Component for React Native",
   "engines": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephy/CalendarPicker"
+    "url": "https://github.com/mrk13n/CalendarPicker"
   },
   "keywords": [
     "calendar",
@@ -32,18 +32,16 @@
     "picker"
   ],
   "author": {
-    "name": "Stephani Alves",
-    "email": "alves@stephanimoroni.com"
+    "name": "Nazar Hichva",
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stephy/CalendarPicker/issues"
+    "url": "https://github.com/mrk13n/CalendarPicker/issues"
   },
-  "homepage": "https://github.com/stephy/CalendarPicker",
+  "homepage": "https://github.com/mrk13n/CalendarPicker",
   "maintainers": [
     {
-      "name": "stephy",
-      "email": "alves@stephanimoroni.com"
+      "name": "mrk13n",
     }
   ],
   "directories": {},
